@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class BisextilTest {
     private Bisextil bisextil;
 
-    @BeforeEach
+    @BeforeEach //A chaque appel de la method test une instanciation de la class est faite
     public void setUp(){
         bisextil = new Bisextil();
     }
